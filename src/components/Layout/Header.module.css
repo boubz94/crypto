@@ -1,0 +1,39 @@
+.logo {
+  width: 150px;
+  height: 100px;
+  margin-left: 20px;
+}
+.header {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  align-items: center;
+  background-image: url("../../assets/market.svg");
+  background-size: cover;
+  background-position: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+.title {
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+.btnWatch {
+  all: unset;
+  align-self: right;
+  cursor: pointer;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
